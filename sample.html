@@ -14,7 +14,9 @@ Just wait a moment, you will be logged out soon.
         quietLogout.init({
             timeout: 6,
             logoutURL:'https://www.google.com',
-            redirectURL:`https://www.google.com`
+            redirectURL:`https://www.google.com`,
+            tryLimit: 3,
+            afterTryLimitReachedURL:'https://www.x.com'
         })
     }
 
