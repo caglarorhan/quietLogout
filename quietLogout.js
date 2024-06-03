@@ -3,7 +3,7 @@ let quietLogout ={
     counter:null,
     isActive: true,
     tryCount:1,
-   async  init(payload={}){
+   async  init(payload={timeout: 300, tryLimit:3, afterTryLimitReachedURL:"https://www.google.com"}){
         this.logoutURL = payload.logoutURL;
        this.redirectURL = payload.redirectURL;
        this.countDown = payload.timeout;
