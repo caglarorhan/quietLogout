@@ -13,7 +13,7 @@ First, include the library in your HTML file:
 Then, you can initialize the library in your JavaScript code:
 ` quietlogout.init();`
 
-- see [sample page](./index.html)
+- see [sample page](https://caglarorhan.github.io/quietLogout/)
 
 ## Configuration
 
